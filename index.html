@@ -62,6 +62,18 @@
             border-collapse: collapse;
         }
 
+        table, tr, td, th {
+            border-collapse: collapse;
+            border: 1px solid black;
+            padding: 10px;
+            background: wheat;
+        }
+
+        .newtabel {
+            display: flex;
+            justify-content: center;
+        }
+
         .pedido {
             width: 250px;
             height: 150px;
@@ -87,6 +99,7 @@
             display: flex;
             padding: 40px;
         }
+
     </style>
 </head>
 
@@ -151,7 +164,38 @@
             <td id="tb2">30-40 min</td>
         </tr>
     </table>
-
+    <div class="newtabel">
+        <table>
+            <tr>
+                <td colspan="3">Tabela com nomes</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="3">Tabela com nomes</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <td colspan="3">Tabela com nomes</td>
+            </tr>
+            <tr>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+                <td>Gabriel</td>
+            </tr>
+        </table>
+    </div>
 </body>
 
 </html>
